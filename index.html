@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Rounded Rectangles</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="dist/paper-full.js"></script>
     <script type="text/paperscript" canvas="canvas">
         var mousePoint = view.center;
@@ -14,7 +14,7 @@
 
 
         for (var i = 1; i < amount; i++) {
-            var rect = new Rectangle([15, 1], [1, 15]);
+            var rect = new Rectangle([65, 5], [5, 65]);
             rect.center = mousePoint+50;
             var path = new Path.Rectangle(rect, 10);
             path.fillColor = colors[i % 4];
