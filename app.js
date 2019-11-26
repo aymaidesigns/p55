@@ -16,23 +16,23 @@ particlesJS('particles-js',
   {
     "particles": {
       "number": {
-        "value": 400,
+        "value": 400, //how many particles in canvas
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
       "color": {
-        "value": ["#006CFF","#CB2200","#00F163","#810AFF","#DFFF18","#FFAFD4"]
+        "value": ["#006CFF","#CB2200","#00F163","#810AFF","#DFFF18","#FFAFD4"] //the amount of colors 
       },
       "shape": {
-        "type": ["circle", "polygon", "star", "triangle"],
+        "type": ["circle", "polygon", "star", "triangle"], //the shapes
         "stroke": {
           "width": 0,
           "color": "#000000"
         },
         "polygon": {
-          "nb_sides": 4
+          "nb_sides": 4 //how many sides for the polygon
         },
         "image": {
           "src": "img/github.svg",
@@ -51,26 +51,26 @@ particlesJS('particles-js',
         }
       },
       "size": {
-        "value": 3,
-        "random": true,
+        "value": 3, //how big i want the shapes
+        "random": true, //random sizes choses from value of 0 to 3
         "anim": {
-          "enable": false,
-          "speed": 40,
+          "enable": false, //if i want the sizes to animate
+          "speed": 40, //how fast
           "size_min": 0.1,
           "sync": false
         }
       },
       "line_linked": {
-        "enable": false,
-        "distance": 150,
+        "enable": false, //to have the line connected to the particles or not
+        "distance": 150, //maximum distance of the line of each particle
         "color": "#ffffff",
         "opacity": 0.4,
         "width": 1
       },
       "move": {
-        "enable": true,
+        "enable": true, //if i want particles to move or not
         "speed": 10,
-        "direction": "none",
+        "direction": "none", //which direction particles will floww
         "random": false,
         "straight": false,
         "out_mode": "out",
@@ -84,37 +84,37 @@ particlesJS('particles-js',
     "interactivity": {
       "detect_on": "canvas",
       "events": {
-        "onhover": {
+        "onhover": { //hover on mouse
           "enable": true,
           "mode": "bubble"
         },
-        "onclick": {
+        "onclick": { //if click
           "enable": true,
           "mode": "push"
         },
         "resize": true
       },
       "modes": {
-        "grab": {
+        "grab": { //makes lines towards cursor
           "distance": 400,
           "line_linked": {
             "opacity": 1
           }
         },
-        "bubble": {
+        "bubble": { //gigantify the particles near mouse
           "distance": 150,
           "size": 40,
           "duration": 2,
           "opacity": 8,
           "speed": 3
         },
-        "repulse": {
+        "repulse": { //push force away from mouse
           "distance": 80
         },
-        "push": {
+        "push": { //add more particles
           "particles_nb": 4
         },
-        "remove": {
+        "remove": { //subtract more particles
           "particles_nb": 2
         }
       }
