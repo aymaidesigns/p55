@@ -41,7 +41,7 @@ particlesJS('particles-js4',
         }
       },
       "opacity": {
-        "value": 0.1,
+        "value": 0.5,
         "random": false,
         "anim": {
           "enable": false,
@@ -96,7 +96,7 @@ particlesJS('particles-js4',
       },
       "modes": {
         "grab": {
-          "distance": 60,
+          "distance": 120,
           "line_linked": {
             "opacity": 1
           }
