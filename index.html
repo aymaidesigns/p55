@@ -1,45 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Rounded Rectangles</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="dist/paper-full.js"></script>
-    <script type="text/paperscript" canvas="canvas">
-        var mousePoint = view.center;
-        var amount = 25;
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-          var colors = ['blue', 'aqua',  'navy', 'teal', 'red'];
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	
+<!--
+	<style>
+        
+        .particle1 iframe{ z-index: 1; height: 100vh; width: 100%; border: none;}
+        
+        .particle2 iframe{ z-index: 2; height: 100vh; width: 100%; border: none;}
 
-
-
-        for (var i = 1; i < amount; i++) {
-            var rect = new Rectangle([65, 5], [5, 65]);
-            rect.center = mousePoint+50;
-            var path = new Path.Rectangle(rect, 10);
-            path.fillColor = colors[i % 4];
-            var scale = (1 + i / amount) * 5;
-            path.scale(scale);
+        
+        #particles-js section {
+            z-index: 999;
         }
+        
+    </style>
+-->
 
-        function onMouseMove(event) {
-            mousePoint = event.point;
 
-        }
-
-        var children = project.activeLayer.children;
-        function onFrame(event) {
-            for (var i = 0, l = children.length; i < l; i++) {
-                var item = children[i];
-                var delta = (mousePoint - item.position) / (i + 5);
-                item.rotate(Math.sin((event.count + i) / 10) *10);
-                if (delta.length > 0.1)
-                    item.position += delta;
-            }
-        }
-    </script>
 </head>
 <body>
-    <canvas id="canvas" resize hidpi="off"></canvas>
+    
+    <div id="particles-js"></div>
+    
+    <script src="particles.js" type= "text/javascript"></script>
+    <script src="app.js" type= "text/javascript"></script>
+    
+     <div id="particles-js1"></div>
+    
+    <script src="particles.js" type= "text/javascript"></script>
+    <script src="p1.js" type= "text/javascript"></script>
+    
+    <div id="particles-js2"></div>
+    
+    <script src="particles.js" type= "text/javascript"></script>
+    <script src="p2.js" type= "text/javascript"></script>
+    
+    <div id="particles-js3"></div>
+    
+    <script src="particles.js" type= "text/javascript"></script>
+    <script src="p3.js" type= "text/javascript"></script>
+    
+    <div id="particles-js4"></div>
+    
+    <script src="particles.js" type= "text/javascript"></script>
+    <script src="p4.js" type= "text/javascript"></script>
+
+<!--	<div id="particles-js"> </div>-->
+
+<!--
+<div class="particle1">
+   
+   <iframe src="p1.html" ></iframe>
+    
+</div>
+
+<div class="particle2">
+   
+   <iframe src="p2.html" ></iframe>
+    
+</div>
+-->
+
+
+
+	
 </body>
 </html>

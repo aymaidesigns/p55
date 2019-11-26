@@ -1,0 +1,93 @@
+body {
+
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+
+
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+/*
+#particles-js {
+
+	width: 100%;
+	height: 100%;
+	background: #000;
+	background: linear-gradient (45deg, #e91e63, #ff9800);
+
+}
+*/
+
+#particles-js {
+position: absolute;
+  width: 20%;
+  height: 100%;
+    background-color:#000;
+    /*
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+*/
+/*  background-position: 50% 50%;*/
+/*    background: linear-gradient(90deg,#000,#696969);*/
+}
+
+
+#particles-js1 {
+  position: absolute;
+  right: 60%;
+  width: 25%;
+  height: 100%;
+  background-color: #000;
+/*
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+*/
+/*  background-position: 50% 50%;*/
+}
+
+#particles-js2 {
+  position: absolute;
+  right: 40%;
+  width: 25%;
+  height: 100%;
+  background-color: #000;
+/*
+  background-repeat: no-repeat;
+  background-size: cover;
+*/
+/*  background-position: 33% 33% 33%;*/
+}
+
+#particles-js3 {
+  position: absolute;
+  right: 20%;
+  width: 25%;
+  height: 100vh;
+  background-color: #000;
+/*
+  background-repeat: no-repeat;
+  background-size: cover;
+*/
+/*  background-position: 33% 33% 33%;*/
+}
+
+#particles-js4 {
+  position: absolute;
+  right: 0px;
+  width: 25%;
+  height: 100vh;
+  background-color: #000;
+/*
+  background-repeat: no-repeat;
+  background-size: cover;
+*/
+/*  background-position: 50% 50%;*/
+}
