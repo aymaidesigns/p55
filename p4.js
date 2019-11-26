@@ -96,7 +96,7 @@ particlesJS('particles-js4',
       },
       "modes": {
         "grab": {
-          "distance": 50,
+          "distance": 10,
           "line_linked": {
             "opacity": 1
           }
@@ -109,7 +109,7 @@ particlesJS('particles-js4',
           "speed": 3
         },
         "repulse": {
-          "distance": 50
+          "distance": 25
         },
         "push": {
           "particles_nb": 5
