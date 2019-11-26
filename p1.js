@@ -51,7 +51,7 @@ particlesJS('particles-js1',
         }
       },
       "size": {
-        "value": 40,
+        "value": 10,
         "random": true,
         "anim": {
           "enable": true,
@@ -109,7 +109,7 @@ particlesJS('particles-js1',
           "speed": 3
         },
         "repulse": {
-          "distance": 200
+          "distance": 50
         },
         "push": {
           "particles_nb": 1
