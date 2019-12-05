@@ -10,9 +10,29 @@ particlesJS.load('particles-js', 'particles.json', function() {
 */
 
 /* Otherwise just put the config content (json): */
+var sound;
+
+function preload() {
+  sound = loadSound("food.mp3");
+  sound.setVolume(0.5);
+  // img = loadImage("caldera-5.jpg");
+}
+
+
+
+function draw() {
+  background(220);
+  // image( img, 0, 0, 400, 400);
+}
+
+function mousePressed () {
+  sound.play();
+}
+
+
 
 particlesJS('particles-js1',
-  
+
   {
     "particles": {
       "number": {
@@ -70,7 +90,7 @@ particlesJS('particles-js1',
       "move": {
         "enable": true,
         "speed": 3,
-        "direction": "top",
+        "direction": "top-right",
         "random": false,
         "straight": false,
         "out_mode": "out",

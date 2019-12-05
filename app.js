@@ -23,10 +23,10 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": ["#006CFF","#CB2200","#00F163","#810AFF","#DFFF18","#FFAFD4"] //the amount of colors 
+        "value": ["#DCDCDC","#D3D3D3","#C0C0C0","#A9A9A9","#808080","#696969", "#778899", "#708090", "#2F4F4F", "#F5F5F5", "#F8F8FF", "#F0F8FF", "#FFFAFA"] //the amount of colors 
       },
       "shape": {
-        "type": ["circle", "polygon", "star", "triangle"], //the shapes
+        "type": "image", //the shapes
         "stroke": {
           "width": 0,
           "color": "#000000"
@@ -35,7 +35,7 @@ particlesJS('particles-js',
           "nb_sides": 4 //how many sides for the polygon
         },
         "image": {
-          "src": "img/github.svg",
+          "src": "https://c7.uihere.com/icons/336/717/98/forecast-snow-snowflake-weather-icon-9f2e22d3417bff7244482f26310c4fee.png",
           "width": 100,
           "height": 100
         }
@@ -70,10 +70,10 @@ particlesJS('particles-js',
       "move": {
         "enable": true, //if i want particles to move or not
         "speed": 10,
-        "direction": "none", //which direction particles will floww
+        "direction": "none", //which direction particles will flow
         "random": false,
         "straight": false,
-        "out_mode": "out",
+        "out_mode": "bounce",
         "attract": {
           "enable": false,
           "rotateX": 600,
@@ -90,7 +90,7 @@ particlesJS('particles-js',
         },
         "onclick": { //if click
           "enable": true,
-          "mode": "push"
+          "mode": "repulse"
         },
         "resize": true
       },
@@ -109,7 +109,7 @@ particlesJS('particles-js',
           "speed": 3
         },
         "repulse": { //push force away from mouse
-          "distance": 80
+          "distance": 150
         },
         "push": { //add more particles
           "particles_nb": 4

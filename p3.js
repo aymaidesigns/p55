@@ -70,7 +70,7 @@ particlesJS('particles-js3',
       "move": {
         "enable": true,
         "speed": 5,
-        "direction": "right",
+        "direction": "bottom-right",
         "random": false,
         "straight": false,
         "out_mode": "out",

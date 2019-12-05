@@ -24,12 +24,23 @@ body {
 }
 */
 
+ #foobar {
+     display: none;
+}
+
+
+
 #particles-js {
 position: absolute;
     right: 40%;
   width: 20%;
-  height: 100%;
-    background-color:#000;
+  height: 100vh;
+  background: url(w3.jpg);
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;      
+      
+      
     /*
   background-image: url("");
   background-repeat: no-repeat;
@@ -43,8 +54,10 @@ position: absolute;
 #particles-js1 {
   position: absolute;
   width: 20%;
-  height: 100%;
-  background-color: #000;
+  height: 100vh;
+  background: url(w1.jpg);
+  background-position:center;
+
 /*
   background-image: url("");
   background-repeat: no-repeat;
@@ -58,7 +71,10 @@ position: absolute;
   right: 60%;
   width: 20%;
   height: 100%;
-  background-color: #000;
+  background: url(w2.jpg);
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 /*
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,7 +87,10 @@ position: absolute;
   right: 20%;
   width: 20%;
   height: 100vh;
-  background-color: #000;
+  background: url(w4.jpg);
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
 /*
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,7 +103,10 @@ position: absolute;
   right: 0px;
   width: 20%;
   height: 100vh;
-  background-color: #000;
+  background: url(w5.jpg);
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
 /*
   background-repeat: no-repeat;
   background-size: cover;

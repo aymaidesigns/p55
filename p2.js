@@ -12,11 +12,11 @@ particlesJS.load('particles-js', 'particles.json', function() {
 /* Otherwise just put the config content (json): */
 
 particlesJS('particles-js2',
-  
+
   {
     "particles": {
       "number": {
-        "value": 100,
+        "value": 300,
         "density": {
           "enable": true,
           "value_area": 800
@@ -72,7 +72,7 @@ particlesJS('particles-js2',
         "speed": 3,
         "direction": "bottom",
         "random": false,
-        "straight": false,
+        "straight": true,
         "out_mode": "out",
         "attract": {
           "enable": true,
@@ -90,7 +90,7 @@ particlesJS('particles-js2',
         },
         "onclick": {
           "enable": true,
-          "mode": "push"
+          "mode": "bubble"
         },
         "resize": true
       },
